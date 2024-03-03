@@ -1,0 +1,36 @@
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@font-face {
+    font-family: "Feather Bold";
+    src: url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.eot");
+    src: url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/14936bb7a4b6575fd2eee80a3ab52cc2.svg#Feather Bold")format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/fb1fb17e0be5850598ac0f40e356bf77?family=DIN+Next+Rounded+LT+W01+Medium);
+@font-face {
+    font-family: "DIN Next Rounded LT W01 Medium";
+    src: url("https://db.onlinewebfonts.com/t/fb1fb17e0be5850598ac0f40e356bf77.eot");
+    src: url("https://db.onlinewebfonts.com/t/fb1fb17e0be5850598ac0f40e356bf77.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/fb1fb17e0be5850598ac0f40e356bf77.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/fb1fb17e0be5850598ac0f40e356bf77.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/fb1fb17e0be5850598ac0f40e356bf77.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/fb1fb17e0be5850598ac0f40e356bf77.svg#DIN Next Rounded LT W01 Medium")format("svg");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a, ul, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: rgb(165, 237, 110);
+    background-color: transparent;
+}
