@@ -783,9 +783,10 @@ footer.appendChild(footerFinal); // Agregar el footer final al footer
 // Agregar el footer al documento HTML
 document.body.appendChild(footer);
 
-
+//Se crea un elemento style
 const estilos = document.createElement('style');
 
+//Se agrega todo el codigo css dentro del elemento style
 estilos.innerHTML = `
 a, ul, li{
     text-decoration: none;
