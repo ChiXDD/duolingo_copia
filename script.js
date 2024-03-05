@@ -58,8 +58,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-
-
 const main = document.createElement('main'); //Creacion del contenedor principal en donde se agregaran las secciones
 
 const pagina1 = document.createElement('div'); //Se crea la pagina que se ve al entrar al sitio
@@ -116,10 +114,10 @@ pagina1.appendChild(parte1); //Agrega la parte 1 a la pagina 1
 
 // Evento en el que al desplazarse mas abajo del boton de registro, este aparece en el nav
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 390) {
+    if (window.scrollY > 360) {
         botonIdiomas.classList.add('botonEmpezar');
         botonIdiomas.classList.remove('botonIdiomasHead');
-        botonIdiomas.innerHTML = '<a href="https://es.duolingo.com/register" class="butt"><button type="button" class="botonEmpezar">EMPIEZA AHORA</button></a>';
+        botonIdiomas.innerHTML = '<a href="https://es.duolingo.com/register" class="butt">EMPIEZA AHORA</a>';
     } else {
         botonIdiomas.classList.remove('botonEmpezar');
         botonIdiomas.classList.add('botonIdiomasHead');
@@ -857,8 +855,6 @@ a {
     color: rgb(190, 190, 190);
 }
 
-
-
 .parte1 {
     align-items: center;
     flex-direction: row;
@@ -916,6 +912,10 @@ a {
     font-weight: 700;
     border-bottom: 5px solid rgb(88, 167, 0);
     width: 330px;
+}
+
+.butt {
+    color: rgb(255, 255, 255);
 }
 
 .botonEmpezar:hover {
